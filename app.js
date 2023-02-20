@@ -18,3 +18,24 @@ class Header extends HTMLElement {
 
 
 customElements.define('main-header', Header);
+
+
+class Footer extends HTMLElement {
+    connectedCallback() {
+      this.innerHTML = 
+        `<nav>            
+         
+    <ul>
+    <li><a href="#">Facebook</a></li>
+    <li><a href="#">Twitter</a></li>
+    <li><a href="#">Instragram</a></li>
+    <li><a href="#">LinkedIn</a></li>
+    </ul> 
+         
+</nav>`
+;
+}
+}
+
+
+customElements.define('main-footer', Footer);
