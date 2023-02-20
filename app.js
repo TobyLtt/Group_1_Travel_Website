@@ -13,4 +13,7 @@ template.innerHTML = `
 `;
 
 document.body.appendChild(navbar.content);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5befa3b3dc45c48b1b13786055db53cf36acc405
