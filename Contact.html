@@ -7,23 +7,32 @@
         <script src="./app.js"></script>
         <title>Contact</title>
     </head>
-</html>
+<body>
         <!--NAVBAR START-->
         <main-header></main-header>
         <!--NAVBAR END-->
 
         <!--BODY START-->
-        
-
-
-
-
-
-
-
-
-
+        <h1 id='form-title'>Contact Us</h1>
+      <p id='description'>If you have any enquiries regarding one of our packages, please get in contact below:</p>
+<form id='survey-form'>
+  <label id='name-label'> Name: <input type='text'id='name' placeholder='What is your name?' required /></label>
+  <label id='email-label'> Email: <input type='email'id='email' placeholder='What is your email address?' required /></label>
+  <label> What is your enquiry about?
+    <select id='dropdown'>
+      <option value=''>(select enquiry)</option>
+      <option value='1'>Billing</option>
+      <option value='2'>Package Info</option>
+      <option value='3'>General Enquiry</option>
+      </select>
+      </label>
+<label> Please describe the reason for contacting us: <textarea></textarea>
+</label>
+<input type='submit' id='submit'/>
+</form>    
         <!--BODY END-->    
         <!--FOOTER START-->
 
         <!--FOOTER END-->
+    </body>
+        </html>
