@@ -63,6 +63,7 @@ html {
 
 .content__photos img {
     padding: 1em;
+    max-width: 33%;
 }
 
 .content--destination {
