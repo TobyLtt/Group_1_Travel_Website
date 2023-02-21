@@ -31,16 +31,26 @@ html {
     flex-direction: row;
 }
 
-.navbar__title {
+.navbar__title a{
     font-family: var(--title-font-family);
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0%;
 }
 
-.navbar__normal {
+.navbar__normal a{
     font-family: var(--primary-font-family);
+    color: var(--bg-color);
+    text-decoration: none;
 }
-.navbar__link {
-    color: var(--secondary-color);
+
+.navbar a:hover {
+    color: var(--primary-color);
+    background-color: var(--bg-color);
 }
+
+
 
 
 
