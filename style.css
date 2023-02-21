@@ -18,9 +18,18 @@ html {
 /* EVERYTHING FINISH */
 /* NAVBARS */
 
+.navbar {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
 
+.navbar--header {
+    font-family: var(--title-font-family);
+}
 
-
+.navbar--link {
+    font-family: var(--font-family);
+}
 
 
 
@@ -70,19 +79,29 @@ html {
 /* DESTINATION PAGES CONTENT FINISH */
 /* HOME PAGE CONTENT */
 .content--index {
-
-
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .content__image {
-    max-width: 200p;
-
+    max-width: 600px;
 }
 
 .content__title {
-    font-size: 20px;
+    font-size: 50px;
 }
 
+.content__intro {
+    font-size: 35px;
+}
+
+.content__embed {
+    max-width: 400px;
+    max-height: 400px;
+    justify-content: center;
+}
 
 
 
