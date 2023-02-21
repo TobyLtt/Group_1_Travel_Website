@@ -58,8 +58,19 @@
 
 /* DESTINATION PAGES CONTENT FINISH */
 /* HOME PAGE CONTENT */
+.content--index {
 
 
+}
+
+.content__image {
+    max-width: 200p;
+
+}
+
+.content__title {
+    font-size: 20px;
+}
 
 
 
