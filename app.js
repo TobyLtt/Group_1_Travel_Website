@@ -26,10 +26,10 @@ class Footer extends HTMLElement {
         `<footer class="navbar navbar--footer">            
          
     <ul>
-    <li class="navbar navbar--footer navbar__link"><a href="#">Facebook</a></li>
-    <li class="navbar navbar--footer navbar__link"><a href="#">Twitter</a></li>
-    <li class="navbar navbar--footer navbar__link"><a href="#">Instragram</a></li>
-    <li class="navbar navbar--footer navbar__link"><a href="#">LinkedIn</a></li>
+    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Facebook</a></li>
+    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Twitter</a></li>
+    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Instragram</a></li>
+    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">LinkedIn</a></li>
     </ul> 
          
 </footer>`
