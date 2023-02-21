@@ -55,9 +55,13 @@ html {
     padding: 1em;
 }
 
+.content--destination {
+    text-align: center;
+}
 
-
-
+.content__body {
+    padding: 0 10em 0 10em;
+}
 
 
 
