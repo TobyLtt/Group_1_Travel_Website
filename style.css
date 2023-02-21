@@ -149,7 +149,24 @@ html {
 
 /* HOME PAGE CONTENT FINISH */
 /* CONTACT PAGE CONTENT */
-
+.content--contact {
+    text-align: center;    
+   }
+   textarea {
+       width: 250px;
+       height: 100px;
+       vertical-align: top;
+     }
+   .survey-form {
+       text-align: left;
+       display: grid;
+   }
+   #submit {
+       width: 10%;
+   }
+   #description {
+       text-align: left;
+   }
 
 
 
