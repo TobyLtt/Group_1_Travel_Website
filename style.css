@@ -21,7 +21,6 @@ html {
 .navbar {
     background-color: var(--primary-color);
     color: var(--secondary-color);
-
     width: 100%;
 }
 
@@ -29,6 +28,13 @@ html {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    max-width: 100%;
+    text-align: center;
+}
+
+.navbar li {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .navbar__title a{
@@ -43,17 +49,22 @@ html {
     font-family: var(--primary-font-family);
     color: var(--bg-color);
     text-decoration: none;
+    font-size: 25px;
 }
 
-.navbar__normal a:hover {
-    color: var(--primary-color);
-    background-color: var(--bg-color);
+.navbar--header__normal a {
+    transform: translateY(4.5ch);
 }
 
-.navbar--header {
+a:hover {
+    color: var(--visited-links-color);
+
+}
+
+/* .navbar--header {
     justify-content: baseline;
 }
-
+ */
 
 
 
