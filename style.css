@@ -130,6 +130,7 @@ a:hover {
 
 .content__title {
     font-size: 50px;
+    font-family: var(--title-font-family);
 }
 
 .content__intro {
