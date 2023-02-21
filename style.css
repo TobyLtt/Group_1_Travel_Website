@@ -21,10 +21,14 @@ html {
 .navbar {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+
+    width: 100%;
+}
+
+.navbar ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    flex-direction: row;
 }
 
 .navbar__title {
