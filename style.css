@@ -104,7 +104,8 @@ a:hover {
 }
 
 .content__body {
-    padding: 0 15em 0 15em;
+    padding: 0 15% 0 15%;
+    background: var(--secondary-color);
 }
 
 
@@ -196,8 +197,12 @@ a:hover {
 /* CONTACT PAGE CONTACT FINISH */
 /* ABOUT PAGE CONTENT */
 
-
-
+   .content__days {
+    font-size: 28px;
+   }
+   .content__times {
+    font-size: 20px;
+   }
 
 
 
