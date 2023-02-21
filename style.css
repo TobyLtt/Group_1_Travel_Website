@@ -21,14 +21,21 @@ html {
 .navbar {
     background-color: var(--primary-color);
     color: var(--secondary-color);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
-.navbar--header {
+.navbar__title {
     font-family: var(--title-font-family);
 }
 
-.navbar--link {
-    font-family: var(--font-family);
+.navbar__normal {
+    font-family: var(--primary-font-family);
+}
+.navbar__link {
+    color: var(--secondary-color);
 }
 
 
