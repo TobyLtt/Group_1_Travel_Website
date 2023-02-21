@@ -45,12 +45,10 @@ html {
     text-decoration: none;
 }
 
-.navbar a:hover {
+.navbar__normal a:hover {
     color: var(--primary-color);
     background-color: var(--bg-color);
 }
-
-
 
 
 
