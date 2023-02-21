@@ -50,7 +50,9 @@ html {
     background-color: var(--bg-color);
 }
 
-
+.navbar--header {
+    justify-content: baseline;
+}
 
 
 
