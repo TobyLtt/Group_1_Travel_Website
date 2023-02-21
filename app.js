@@ -4,7 +4,7 @@ class Header extends HTMLElement {
         `<nav class="navbar navbar--header">            
          
     <ul>
-    <li class="navbar navbar--header navbar__title navbar__link"><a href="index.html"><h2>Company Name</h2></a></li>
+    <li class="navbar navbar--header navbar__title navbar__link"><a href="index.html"><h2>HOLZ</h2></a></li>
     <li class="navbar navbar--header navbar--header__normal navbar__normal navbar__link"><a href="Contact.html">Contact</a></li>
     <li class="navbar navbar--header navbar--header__normal navbar__normal navbar__link"><a href="About.html">About</a></li>
     <li class="navbar navbar--header navbar--header__normal navbar__normal navbar__link"><a href="Greece.html">Greece</a></li>
@@ -28,7 +28,7 @@ class Footer extends HTMLElement {
     <ul>
     <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Facebook</a></li>
     <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Twitter</a></li>
-    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Instragram</a></li>
+    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Instagram</a></li>
     <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">LinkedIn</a></li>
     </ul> 
          
