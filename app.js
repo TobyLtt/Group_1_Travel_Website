@@ -28,7 +28,7 @@ class Footer extends HTMLElement {
     <ul>
     <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Facebook</a></li>
     <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Twitter</a></li>
-    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Instragram</a></li>
+    <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">Instagram</a></li>
     <li class="navbar navbar--footer navbar__link navbar__normal"><a href="#">LinkedIn</a></li>
     </ul> 
          
