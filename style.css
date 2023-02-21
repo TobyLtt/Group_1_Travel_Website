@@ -58,6 +58,11 @@ html {
 
 
 
+
+
+
+
+
 /* NAVBARS FINISH */
 /* ALL CONTENT */
 
@@ -74,26 +79,11 @@ html {
 
 /* ALL CONTENT FINISH */
 /* DESTINATION PAGES CONTENT */
-.content__photos {
-    display:flex;
-    float: left;
-    justify-content: center;  
-    padding: 2em;
-    background-color: var(--bg-color);
-}
 
-.content__photos img {
-    padding: 1em;
-    max-width: 33%;
-}
 
-.content--destination {
-    text-align: center;
-}
 
-.content__body {
-    padding: 0 10em 0 10em;
-}
+
+
 
 
 
@@ -101,49 +91,13 @@ html {
 
 /* DESTINATION PAGES CONTENT FINISH */
 /* HOME PAGE CONTENT */
-.content--index {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 
-.content__image {
-    max-width: 600px;
-}
 
-.content__title {
-    font-size: 50px;
-}
 
-.content__intro {
-    font-size: 18px;
-    text-align: center;
-    background:#C6A8FF;
-    margin: 1em;
-    max-width: 600px;
-    max-height: auto;
-    padding: 1em;
-    box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
-}
 
-.content__embed {
-    max-width: 400px;
-    max-height: 400px;
-    justify-content: center;
-}
 
-.content__reviews {
-    font-size: 14px;
-    text-align: center;
-    background:#C6A8FF;
-    margin: 1em;
-    max-width: 600px;
-    max-height: auto;
-    padding: 1em;
-    box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
-}
+
+
 
 
 
