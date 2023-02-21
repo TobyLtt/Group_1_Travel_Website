@@ -44,7 +44,16 @@ html {
 
 /* ALL CONTENT FINISH */
 /* DESTINATION PAGES CONTENT */
+.content__photos {
+    display:flex;
+    float: left;
+    justify-content: center;  
+    padding: 2em;
+}
 
+.content__photos img {
+    padding: 1em;
+}
 
 
 
