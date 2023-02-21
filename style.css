@@ -31,18 +31,28 @@ html {
     flex-direction: row;
 }
 
-.navbar__title {
+.navbar__title a{
     font-family: var(--title-font-family);
-}
-
-.navbar__normal {
-    font-family: var(--primary-font-family);
-}
-.navbar__link {
     color: var(--secondary-color);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0%;
 }
 
+.navbar__normal a{
+    font-family: var(--primary-font-family);
+    color: var(--bg-color);
+    text-decoration: none;
+}
 
+.navbar__normal a:hover {
+    color: var(--primary-color);
+    background-color: var(--bg-color);
+}
+
+.navbar--header {
+    justify-content: baseline;
+}
 
 
 
@@ -74,15 +84,17 @@ html {
 
 .content__photos img {
     padding: 1em;
-    max-width: 33%;
+    max-width: 30%;
 }
 
 .content--destination {
     text-align: center;
+    font-size: 22px;
 }
 
 .content__body {
-    padding: 0 10em 0 10em;
+    padding: 0 15% 0 15%;
+    background: var(--secondary-color);
 }
 
 
@@ -110,7 +122,7 @@ html {
 .content__intro {
     font-size: 18px;
     text-align: center;
-    background:#C6A8FF;
+    background: var(--secondary-color);
     margin: 1em;
     max-width: 600px;
     max-height: auto;
@@ -139,7 +151,28 @@ html {
 
 /* HOME PAGE CONTENT FINISH */
 /* CONTACT PAGE CONTENT */
-
+.content--contact {
+    text-align: center;  
+   }
+   textarea {
+       width: 800px;
+       height: 100px;
+       vertical-align: top;
+     }
+   .survey-form {
+       text-align: left;
+       display: grid;
+       max-width: 49%;
+       width: 49%;
+       font-size: 20px;
+   }
+   #submit {
+       width: 10%;
+   }
+   #description {
+       text-align: left;
+       font-size: 28px;
+   }
 
 
 
