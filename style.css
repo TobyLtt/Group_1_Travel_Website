@@ -94,7 +94,14 @@ html {
 }
 
 .content__intro {
-    font-size: 35px;
+    font-size: 20px;
+    text-align: center;
+    background:#C6A8FF;
+    margin: 1em;
+    max-width: 600px;
+    max-height: auto;
+    padding: 1em;
+    box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
 }
 
 .content__embed {
