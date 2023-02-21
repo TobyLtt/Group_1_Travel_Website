@@ -186,8 +186,12 @@ html {
 /* CONTACT PAGE CONTACT FINISH */
 /* ABOUT PAGE CONTENT */
 
-
-
+   .content__days {
+    font-size: 28px;
+   }
+   .content__times {
+    font-size: 20px;
+   }
 
 
 
