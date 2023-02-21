@@ -58,6 +58,7 @@ html {
     float: left;
     justify-content: center;  
     padding: 2em;
+    background-color: var(--bg-color);
 }
 
 .content__photos img {
