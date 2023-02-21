@@ -101,13 +101,14 @@ a:hover {
 .content--destination {
     text-align: center;
     font-size: 22px;
-    font-family: var(--primary-font-family)
+    font-family: var(--title-font-family);
 }
 
 .content__body {
     background: var(--secondary-color);
     margin: 0 15% 0 15%;
     padding: 1%;
+    font-family: var(--primary-font-family);
 }
 
 
@@ -166,7 +167,7 @@ a:hover {
 /* CONTACT PAGE CONTENT */
 .content--contact {
     text-align: center; 
-    font-family: var(--primary-font-family); 
+    font-family: var(--title-font-family); 
    }
    textarea {
        width: 800px;
@@ -179,6 +180,7 @@ a:hover {
        max-width: 49%;
        width: 49%;
        font-size: 20px;
+       font-family: var(--primary-font-family);
    }
    #submit {
        width: 10%;
@@ -186,6 +188,7 @@ a:hover {
    #description {
        text-align: left;
        font-size: 28px;
+       font-family: var(--primary-font-family);
    }
 
 
