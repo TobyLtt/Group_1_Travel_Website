@@ -2,6 +2,7 @@
     --bg-color: #CECBD3;
     --primary-color: #3D352B;
     --secondary-color: #C6A8FF;
+    --body-text-color: #1e1201;
     --visited-links-color: #F2A541;
 
     --font-family: sans-serif;
@@ -9,12 +10,9 @@
 
 /* EVERYTHING */
 
-.html{
+html {
     background-color: var(--bg-color);
-
-
-
-
+    font-family: var(--font-family);
 }
 
 /* EVERYTHING FINISH */
