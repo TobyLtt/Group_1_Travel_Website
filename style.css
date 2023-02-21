@@ -5,14 +5,14 @@
     --body-text-color: #1e1201;
     --visited-links-color: #F2A541;
 
-    --font-family: sans-serif;
+    --primary-font-family: 'Questrial', sans-serif;
+    --title-font-family: 'Shadows Into Light', cursive;
 }
 
 /* EVERYTHING */
 
 html {
     background-color: var(--bg-color);
-    font-family: var(--font-family);
 }
 
 /* EVERYTHING FINISH */
