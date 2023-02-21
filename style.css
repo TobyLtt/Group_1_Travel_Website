@@ -93,7 +93,8 @@ html {
 }
 
 .content__body {
-    padding: 0 15em 0 15em;
+    padding: 0 15% 0 15%;
+    background: var(--secondary-color);
 }
 
 
