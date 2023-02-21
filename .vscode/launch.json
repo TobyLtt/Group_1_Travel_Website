@@ -7,9 +7,14 @@
         {
             "type": "chrome",
             "request": "launch",
+<<<<<<< HEAD
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
+=======
+            "name": "Open Greece.html",
+            "file": "/Users/daisysimac/Desktop/Group_1_Travel_Website/Greece.html"
+>>>>>>> 2b50a0cb382a92548525625d08b2ac4016d7ba5a
         }
     ]
 }
