@@ -84,15 +84,16 @@ html {
 
 .content__photos img {
     padding: 1em;
-    max-width: 33%;
+    max-width: 30%;
 }
 
 .content--destination {
     text-align: center;
+    font-size: 22px;
 }
 
 .content__body {
-    padding: 0 10em 0 10em;
+    padding: 0 15em 0 15em;
 }
 
 
@@ -149,7 +150,28 @@ html {
 
 /* HOME PAGE CONTENT FINISH */
 /* CONTACT PAGE CONTENT */
-
+.content--contact {
+    text-align: center;  
+   }
+   textarea {
+       width: 800px;
+       height: 100px;
+       vertical-align: top;
+     }
+   .survey-form {
+       text-align: left;
+       display: grid;
+       max-width: 49%;
+       width: 49%;
+       font-size: 20px;
+   }
+   #submit {
+       width: 10%;
+   }
+   #description {
+       text-align: left;
+       font-size: 28px;
+   }
 
 
 
