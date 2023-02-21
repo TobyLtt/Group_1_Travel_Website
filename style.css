@@ -121,7 +121,7 @@ html {
 .content__intro {
     font-size: 18px;
     text-align: center;
-    background:#C6A8FF;
+    background: var(--secondary-color);
     margin: 1em;
     max-width: 600px;
     max-height: auto;
@@ -154,7 +154,7 @@ html {
     text-align: center;  
    }
    textarea {
-       width: 250px;
+       width: 800px;
        height: 100px;
        vertical-align: top;
      }
