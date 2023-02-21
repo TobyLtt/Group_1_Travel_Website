@@ -1,7 +1,7 @@
 class Header extends HTMLElement {
     connectedCallback() {
       this.innerHTML = 
-        `<nav>            
+        `<nav class=">            
          
     <ul>
     <li><a href="index.html"><h2>Company Name</h2></a></li>
@@ -23,7 +23,7 @@ customElements.define('main-header', Header);
 class Footer extends HTMLElement {
     connectedCallback() {
       this.innerHTML = 
-        `<nav>            
+        `<footer>            
          
     <ul>
     <li><a href="#">Facebook</a></li>
@@ -32,7 +32,7 @@ class Footer extends HTMLElement {
     <li><a href="#">LinkedIn</a></li>
     </ul> 
          
-</nav>`
+</footer>`
 ;
 }
 }
