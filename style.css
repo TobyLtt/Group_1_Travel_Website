@@ -212,16 +212,29 @@ a:hover {
 /* ABOUT PAGE CONTENT */
 
    .content__days {
-    font-size: 28px;
+    font-size: 24px;
+    font-family: var(--primary-font-family);
    }
    .content__times {
     font-size: 20px;
+    font-family: var(--primary-font-family);
    }
 
-
-
-
-
-
-
+   table, th, td {
+    border: 1px solid;
+  }
+td {
+    text-align: center;
+}
+table {
+    width: 50%;
+}
+.content--about {
+    font-family: var(--title-font-family);
+    font-size: 30px;
+}
+.mapfont {
+    font-family: var(--primary-font-family);
+    font-size: 24px;
+}
 /* ABOUT PAGE CONTENT FINISH */
