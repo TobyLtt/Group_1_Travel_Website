@@ -18,6 +18,14 @@ html {
 /* EVERYTHING FINISH */
 /* NAVBARS */
 
+.navbar--footer {
+   
+    bottom: 0;
+    position: fixed;
+    height: 50px;
+    overflow:hidden;
+}
+
 .navbar {
     background-color: var(--primary-color);
     color: var(--secondary-color);
@@ -35,6 +43,8 @@ html {
 .navbar li {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    text-align: end;
 }
 
 .navbar__title a{
@@ -52,18 +62,14 @@ html {
     font-size: 25px;
 }
 
-.navbar--header__normal a {
-    transform: translateY(4.5ch);
-}
+
 
 a:hover {
     color: var(--visited-links-color);
 
 }
 
-.navbar--footer {
-    bottom: 0;
-}
+
 
 
 
@@ -159,7 +165,7 @@ a:hover {
     max-width: 600px;
     max-height: auto;
     padding: 1em;
-    box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
+    box-shadow: 10px 10px 30px 10px rgba(0,0,0,-4);
     font-family: var(--primary-font-family);
 }
 
