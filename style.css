@@ -131,7 +131,7 @@ a:hover {
 }
 
 .content__image {
-    max-width: 600px;
+    max-width: 50vw;
 }
 
 .content__title {
