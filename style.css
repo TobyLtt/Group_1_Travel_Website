@@ -241,9 +241,25 @@ display: grid;
        color: var(--body-text-color);
    }
 
-  
+   input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
 
+    border-style: none;
+    min-width: 300px;
+    font-family: var(--primary-font-family);
 
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+  }  
+
+  input[type="submit"]:hover {
+    color: var(--body-text-color);
+    background-color: var(--secondary-color);
+}
 
 
 
