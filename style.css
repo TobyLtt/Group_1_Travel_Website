@@ -6,7 +6,8 @@
     --visited-links-color: #F2A541;
 
     --primary-font-family: 'Questrial', sans-serif;
-    --title-font-family: 'Skyfont', sans-serif;
+    --title-font-family: 'Shadows Into Light', cursive;
+    --logo-font-family: 'Skyfont', sans-serif;
 }
 
 @font-face {
@@ -21,7 +22,7 @@ html {
 }
 
 .title {
-    font-size: 10vw;
+    font-size: max(6vw, 20px);
     font-family: var(--title-font-family);
     text-align: center;
 }
@@ -61,7 +62,7 @@ html {
 }
 
 .navbar__title a{
-    font-family: var(--title-font-family);
+    font-family: var(--logo-font-family);
     color: var(--secondary-color);
     text-decoration: none;
     font-size: max(3vw, 20px);
