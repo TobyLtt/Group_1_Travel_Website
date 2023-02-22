@@ -132,7 +132,10 @@ a:hover {
 }
 
 .content__image {
-    max-width: 50vw;
+
+    max-width: 80%;
+    display: flex;
+
 }
 
 .content__title {
@@ -145,7 +148,7 @@ a:hover {
     text-align: center;
     background: var(--secondary-color);
     margin: 1em;
-    max-width: 600px;
+    max-width: 80%;
     max-height: auto;
     padding: 1em;
     box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
@@ -153,12 +156,14 @@ a:hover {
 }
 
 .content__embed {
+    display: flex;
     max-width: 400px;
     max-height: 400px;
     justify-content: center;
     margin-left: auto;
   margin-right: auto;
   padding-top: 1em;
+  align-items: center;
 }
 
 .content__reviews {
@@ -166,11 +171,12 @@ a:hover {
     text-align: center;
     background:#C6A8FF;
     margin: 1em;
-    max-width: 600px;
+    max-width: 80%;
     max-height: auto;
     padding: 1em;
     box-shadow: 10px 10px 30px 10px rgba(0,0,0,-4);
     font-family: var(--primary-font-family);
+    margin-bottom: 5%;
 }
 
 
@@ -182,23 +188,27 @@ a:hover {
     font-family: var(--title-font-family); 
    }
    textarea {
-       width: 800px;
-       height: 100px;
+      
        vertical-align: top;
+       resize: none;
      }
    .survey-form {
-       text-align: left;
-       display: grid;
+       text-align: center;
+       display: inline-block;
        max-width: 49%;
-       width: 49%;
        font-size: 20px;
        font-family: var(--primary-font-family);
-   }
+       margin: 0 auto; }
+label {
+text-align: center;
+display: grid;
+}
+    
    #submit {
-       width: 10%;
+    align-items: center;
    }
    #description {
-       text-align: left;
+       text-align: center;
        font-size: 28px;
        font-family: var(--primary-font-family);
    }
@@ -245,5 +255,6 @@ table {
 .mapfont {
     font-family: var(--primary-font-family);
     font-size: 24px;
+    text-align: center;
 }
 /* ABOUT PAGE CONTENT FINISH */
