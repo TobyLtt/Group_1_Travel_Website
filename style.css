@@ -15,6 +15,12 @@ html {
     background-color: var(--bg-color);
 }
 
+.title {
+    font-size: 10vw;
+    font-family: var(--title-font-family);
+    text-align: center;
+}
+
 /* EVERYTHING FINISH */
 /* NAVBARS */
 
@@ -22,8 +28,9 @@ html {
    
     bottom: 0;
     position: fixed;
-    height: 50px;
+    height: 5%;
     overflow:hidden;
+    
 }
 
 .navbar {
@@ -106,8 +113,11 @@ a:hover {
 
 .content--destination {
     text-align: center;
-    font-size: 22px;
     font-family: var(--title-font-family);
+}
+
+#Greece Title {
+    font-size: 10vw;
 }
 
 .content__body {
@@ -115,6 +125,7 @@ a:hover {
     margin: 0 15% 0 15%;
     padding: 1%;
     font-family: var(--primary-font-family);
+    font-size: max(3vw, 15px); 
 }
 
 
@@ -157,8 +168,8 @@ a:hover {
 
 .content__embed {
     display: flex;
-    max-width: 400px;
-    max-height: 400px;
+    width: 50%;
+    height: 20%;
     justify-content: center;
     margin-left: auto;
   margin-right: auto;
@@ -167,7 +178,7 @@ a:hover {
 }
 
 .content__reviews {
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     background:#C6A8FF;
     margin: 1em;
@@ -176,7 +187,7 @@ a:hover {
     padding: 1em;
     box-shadow: 10px 10px 30px 10px rgba(0,0,0,-4);
     font-family: var(--primary-font-family);
-    margin-bottom: 5%;
+    margin-bottom: 13%;
 }
 
 
@@ -209,11 +220,11 @@ display: grid;
    }
    #description {
        text-align: center;
-       font-size: 28px;
+       font-size: 5vw;
        font-family: var(--primary-font-family);
    }
 
-
+  
 
 
 
@@ -226,11 +237,11 @@ display: grid;
 /* ABOUT PAGE CONTENT */
 
    .content__days {
-    font-size: 24px;
+    font-size: 4.5vw;
     font-family: var(--primary-font-family);
    }
    .content__times {
-    font-size: 20px;
+    font-size: 3.5vw;
     font-family: var(--primary-font-family);
    }
 
@@ -245,16 +256,18 @@ td {
 table {
     width: 50%;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 .content--about {
     font-family: var(--title-font-family);
-    font-size: 30px;
+    font-size: 10vw;
     text-align: center;
 }
 .mapfont {
     font-family: var(--primary-font-family);
-    font-size: 24px;
+    font-size: 80%;
     text-align: center;
 }
+
+
 /* ABOUT PAGE CONTENT FINISH */
