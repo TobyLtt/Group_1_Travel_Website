@@ -131,7 +131,8 @@ a:hover {
 }
 
 .content__image {
-    max-width: 600px;
+    max-width: 80%;
+    display: flex;
 }
 
 .content__title {
@@ -144,7 +145,7 @@ a:hover {
     text-align: center;
     background: var(--secondary-color);
     margin: 1em;
-    max-width: 600px;
+    max-width: 80%;
     max-height: auto;
     padding: 1em;
     box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
@@ -167,7 +168,7 @@ a:hover {
     text-align: center;
     background:#C6A8FF;
     margin: 1em;
-    max-width: 600px;
+    max-width: 80%;
     max-height: auto;
     padding: 1em;
     box-shadow: 10px 10px 30px 10px rgba(0,0,0,-4);
