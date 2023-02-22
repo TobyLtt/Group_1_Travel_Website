@@ -25,6 +25,7 @@ html {
     font-size: max(6vw, 20px);
     font-family: var(--title-font-family);
     text-align: center;
+    color: var(--body-text-color);
 }
 
 /* EVERYTHING FINISH */
@@ -133,6 +134,7 @@ a:hover {
     padding: 1%;
     font-family: var(--primary-font-family);
     font-size: max(2vw, 15px); 
+    color: var(--body-text-color);
 }
 
 
@@ -159,6 +161,7 @@ a:hover {
 .content__title {
     font-size: 50px;
     font-family: var(--title-font-family);
+    color: var(--body-text-color);
 }
 
 .content__intro {
@@ -171,6 +174,7 @@ a:hover {
     padding: 1em;
     box-shadow: 10px 10px 30px -10px rgba(0,0,0,-4);
     font-family: var(--primary-font-family);
+    color: var(--body-text-color);
 }
 
 .content__embed {
@@ -195,6 +199,7 @@ a:hover {
     box-shadow: 10px 10px 30px 10px rgba(0,0,0,-4);
     font-family: var(--primary-font-family);
     margin-bottom: 13%;
+    color: var(--body-text-color);
 }
 
 
@@ -204,6 +209,7 @@ a:hover {
 .content--contact {
     text-align: center; 
     font-family: var(--title-font-family); 
+    color: var(--body-text-color);
    }
    textarea {
       
@@ -216,7 +222,10 @@ a:hover {
        max-width: 49%;
        font-size: 20px;
        font-family: var(--primary-font-family);
-       margin: 0 auto; }
+       margin: 0 auto;
+       color: var(--body-text-color);
+    }
+       
 label {
 text-align: center;
 display: grid;
@@ -229,6 +238,7 @@ display: grid;
        text-align: center;
        font-size: max(2vw, 15px);
        font-family: var(--primary-font-family);
+       color: var(--body-text-color);
    }
 
   
@@ -246,10 +256,12 @@ display: grid;
    .content__days {
     font-size: max(2vw, 20px);
     font-family: var(--primary-font-family);
+    color: var(--body-text-color);
    }
    .content__times {
     font-size: max(1.5vw, 15px);
     font-family: var(--primary-font-family);
+    color: var(--body-text-color);
    }
 
    table, th, td {
