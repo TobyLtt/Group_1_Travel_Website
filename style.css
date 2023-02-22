@@ -7,12 +7,24 @@
 
     --primary-font-family: 'Questrial', sans-serif;
     --title-font-family: 'Shadows Into Light', cursive;
+    --logo-font-family: 'Skyfont', sans-serif;
 }
+
+@font-face {
+    font-family: Skyfont;
+    src: url(skyfont.regular.otf);
+  }
 
 /* EVERYTHING */
 
 html {
     background-color: var(--bg-color);
+}
+
+.title {
+    font-size: max(6vw, 20px);
+    font-family: var(--title-font-family);
+    text-align: center;
 }
 
 /* EVERYTHING FINISH */
@@ -22,9 +34,11 @@ html {
    
     bottom: 0;
     position: fixed;
-    height: 50px;
+    height: 5%;
     overflow:hidden;
+    
 }
+
 
 .navbar {
     background-color: var(--primary-color);
@@ -48,7 +62,7 @@ html {
 }
 
 .navbar__title a{
-    font-family: var(--title-font-family);
+    font-family: var(--logo-font-family);
     color: var(--secondary-color);
     text-decoration: none;
     font-size: max(3vw, 20px);
@@ -106,8 +120,11 @@ a:hover {
 
 .content--destination {
     text-align: center;
-    font-size: 22px;
     font-family: var(--title-font-family);
+}
+
+#Greece Title {
+    font-size: 10vw;
 }
 
 .content__body {
@@ -115,6 +132,7 @@ a:hover {
     margin: 0 15% 0 15%;
     padding: 1%;
     font-family: var(--primary-font-family);
+    font-size: max(2vw, 15px); 
 }
 
 
@@ -157,8 +175,8 @@ a:hover {
 
 .content__embed {
     display: flex;
-    max-width: 400px;
-    max-height: 400px;
+    width: 50%;
+    height: 20%;
     justify-content: center;
     margin-left: auto;
   margin-right: auto;
@@ -167,7 +185,7 @@ a:hover {
 }
 
 .content__reviews {
-    font-size: 14px;
+    font-size: 13px;
     text-align: center;
     background:#C6A8FF;
     margin: 1em;
@@ -176,7 +194,7 @@ a:hover {
     padding: 1em;
     box-shadow: 10px 10px 30px 10px rgba(0,0,0,-4);
     font-family: var(--primary-font-family);
-    margin-bottom: 5%;
+    margin-bottom: 13%;
 }
 
 
@@ -209,11 +227,11 @@ display: grid;
    }
    #description {
        text-align: center;
-       font-size: 28px;
+       font-size: max(2vw, 15px);
        font-family: var(--primary-font-family);
    }
 
-
+  
 
 
 
@@ -226,11 +244,11 @@ display: grid;
 /* ABOUT PAGE CONTENT */
 
    .content__days {
-    font-size: 24px;
+    font-size: max(2vw, 20px);
     font-family: var(--primary-font-family);
    }
    .content__times {
-    font-size: 20px;
+    font-size: max(1.5vw, 15px);
     font-family: var(--primary-font-family);
    }
 
@@ -245,16 +263,18 @@ td {
 table {
     width: 50%;
     margin-left: auto;
-  margin-right: auto;
+    margin-right: auto;
 }
 .content--about {
     font-family: var(--title-font-family);
-    font-size: 30px;
+    font-size: 10vw;
     text-align: center;
 }
 .mapfont {
     font-family: var(--primary-font-family);
-    font-size: 24px;
+    font-size: 80%;
     text-align: center;
 }
+
+
 /* ABOUT PAGE CONTENT FINISH */
