@@ -1,0 +1,19 @@
+{
+  "name": "group_1_travel_website",
+  "version": "1.0.0",
+  "description": "3 page website for a travel angency using ONLY HTML and CSS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyLtt/Group_1_Travel_Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobyLtt/Group_1_Travel_Website/issues"
+  },
+  "homepage": "https://github.com/TobyLtt/Group_1_Travel_Website#readme"
+}
